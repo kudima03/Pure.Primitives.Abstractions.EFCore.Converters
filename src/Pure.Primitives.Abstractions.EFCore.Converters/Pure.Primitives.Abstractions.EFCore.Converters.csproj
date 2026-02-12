@@ -8,4 +8,12 @@
     <EnablePackageValidation>true</EnablePackageValidation>
     <!--<PackageValidationBaselineVersion>0.1.0-preview.0.1.0</PackageValidationBaselineVersion>-->
   </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Pure.Primitives.Abstractions.EFCore.Converters</PackageId>
+    <RootNamespace>Pure.Primitives.Abstractions.EFCore.Converters</RootNamespace>
+    <AssemblyName>Pure.Primitives.Abstractions.EFCore.Converters</AssemblyName>
+    <Authors>Dmitry Kurochkin</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions.EFCore.Converters</PackageProjectUrl>
+  </PropertyGroup>
 </Project>
