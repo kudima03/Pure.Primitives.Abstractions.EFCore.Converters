@@ -17,7 +17,7 @@
     <PackageProjectUrl>https://github.com/kudima03/Pure.Primitives.Abstractions.EFCore.Converters</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pure.Primitives" Version="3.6.2" />
+    <PackageReference Include="Pure.Primitives" Version="3.6.3" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net7.0'">
     <PackageReference Include="Microsoft.EntityFrameworkCore">
