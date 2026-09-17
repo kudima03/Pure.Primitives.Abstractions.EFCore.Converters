@@ -15,6 +15,8 @@ dotnet test --no-build --verbosity normal     # run xUnit tests
 dotnet pack --configuration Release -p:Version=<version> --output .
 ```
 
+CI additionally passes `-p:AssemblyVersion` (pinned to the major) and `-p:FileVersion`; see `.github/workflows/publish-nuget.yml`.
+
 ## Architecture
 
 This is a **value converter library** for Entity Framework Core — no domain logic, no abstractions, just converters. Each file defines exactly one `sealed` converter class inheriting from `ValueConverter<TModel, TProvider>`.
