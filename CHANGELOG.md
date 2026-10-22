@@ -6,6 +6,18 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.0.2.0] — 2026-10-22
+
+### Added
+
+- The package README is now included in the NuGet package.
+
+### Changed
+
+- Updated the `Pure.Primitives` dependency from 3.6.4 to 3.7.0.
+- Assembly and file versions are now derived from the release tag.
+- Maintenance: build, CI and test dependency updates.
+
 ## [0.1.0-preview.0.1.2] — 2026-05-20
 
 ### Changed
