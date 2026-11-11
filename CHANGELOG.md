@@ -6,6 +6,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [0.1.0-preview.0.3.0] — 2026-11-11
+
+### Added
+
+- Added .NET 11 (`net11.0`) support, with `Microsoft.EntityFrameworkCore` 11.0.0 for the new target.
+
+### Changed
+
+- Updated the `Pure.Primitives` dependency from 3.7.0 to 3.8.0.
+- Maintenance: CI now builds with the .NET 11 SDK; dependency updates.
+
 ## [0.1.0-preview.0.2.0] — 2026-10-22
 
 ### Added
