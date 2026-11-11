@@ -23,11 +23,11 @@ This is a **value converter library** for Entity Framework Core — no domain lo
 
 **Converter pattern:** Each converter takes a Pure.Primitives interface as the model type and maps it to the corresponding .NET primitive. The constructor delegates construction of the model type to the concrete implementation in `Pure.Primitives` (e.g. `new Primitives.Number.Int(x)`).
 
-**Multi-targeting:** net7.0, net8.0, net9.0, net10.0. The `Microsoft.EntityFrameworkCore` version is framework-conditional (7.0.20 / 8.0.24 / 9.0.13 / 10.0.3). All converters must remain AOT-compatible (`IsAotCompatible = true`).
+**Multi-targeting:** net7.0, net8.0, net9.0, net10.0, net11.0. The `Microsoft.EntityFrameworkCore` version is framework-conditional (7.0.20 / 8.0.24 / 9.0.13 / 10.0.3 / 11.0.0). All converters must remain AOT-compatible (`IsAotCompatible = true`).
 
 **Package validation:** `EnablePackageValidation = true` with `PackageValidationBaselineVersion = 0.1.0-preview.0.2.0`. Breaking API changes fail the build.
 
-**Tests:** xUnit test project under `./src/Tests/`, targeting net10.0 only.
+**Tests:** xUnit test project under `./src/Tests/`, targeting net11.0 only.
 
 **Publishing:** triggered by pushing a semver tag (e.g. `1.0.0`). The tag becomes the `PackageVersion`.
 

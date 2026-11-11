@@ -57,6 +57,7 @@ All converters are in the `Pure.Primitives.Abstractions.EFCore.Converters` names
 - .NET 8
 - .NET 9
 - .NET 10
+- .NET 11
 
 ## Installation
 
